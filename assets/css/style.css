@@ -1,0 +1,150 @@
+body, html {
+  height: 100%;
+}
+
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
+  background-image: linear-gradient(rgba(160, 160, 160, 0.5), rgba(0, 0, 0, 0.5)), url("images/narn-train.jpg");
+  
+  /* Set a specific height */
+  height: 70%;
+  
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 40px;
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  }
+  
+  /* This sets the primary button attributes to be square and transparent with a thin white border */
+  .btn-primary-outline {
+    font-family: Raleway, sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    background-color: transparent;
+    box-shadow: none;
+    color: rgb(241, 241, 241);
+    padding: 15px;
+    border-color: white;
+    border-radius: 0px !important;
+  }
+  
+  .hero-text {
+    font-family: Raleway, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+#head-container {
+  margin-top: 3%;
+  align-content: center;
+  font-family: Raleway, sans-serif;
+  overflow: hidden;
+  min-height: 700px;
+  max-width: 1000px;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  
+}
+
+#head {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 2%;
+}
+
+.panel-custom {
+  color: rgb(0, 0, 0) !important;
+  align-content: center;
+  font-family: Raleway, sans-serif;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+table {
+  margin: 0 auto;
+  align-content: center;
+  font-family: Raleway, sans-serif;
+  overflow: hidden;
+  min-height: 700px;
+  max-width: 1000px;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+p {
+  
+font-family: Raleway, sans-serif;
+  letter-spacing: 2px;
+  font-size: 80px;
+  background-color: transparent;
+  box-shadow: none;
+  color: rgb(241, 241, 241);
+  padding: 15px;
+  border-color: white;
+  border-radius: 0px !important;
+
+}
+
+
+
+h1 {
+
+  font-family: Raleway, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border-color: white;
+  border-radius: 0px !important;
+  border-style: solid;
+
+}
+
+th {
+  margin: 1% 1% 0 1%;
+  padding: 3% 3% 0 3%;
+  width: 1%;
+}
+
+hr {
+  margin: 1%;
+}
+
+td {
+  margin: 1% 1% 0 1%;
+  padding: 3% 3% 0 3%;
+  width: 1%;
+}
+
+h1 img {
+  width: 5%;
+  padding-bottom: 1%;
+}
+
+.glyphicon-remove {
+  color: darkred;
+  padding-left: 15%;
+}
+
+.form-control:focus {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #141f3d;
+}
